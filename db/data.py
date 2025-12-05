@@ -14,19 +14,19 @@ cmd_insert_medida = 'INSERT INTO amostra_medidas (amostra_id, ph, temperatura_ex
 
 
 # AMOSTRA 1
-cursor.execute(cmd_insert_amostra, (1, "Balde para lavar pano de limpeza", "Amostra #1", '/assets/amostra-1.jpeg'))
+cursor.execute(cmd_insert_amostra, (1, "Balde para lavar pano de limpeza", "Amostra #1", '/app/static/amostra-1.jpeg'))
 # AMOSTRA 2
-cursor.execute(cmd_insert_amostra, (2, "Bom estado de uso", "Amostra #2", '/assets/amostra-2.jpeg'))
+cursor.execute(cmd_insert_amostra, (2, "Bom estado de uso", "Amostra #2", '/app/static/amostra-2.jpeg'))
 # AMOSTRA 3
-cursor.execute(cmd_insert_amostra, (3, "Rodeado de folhas caidas, grama e terra (mas aparentemente limpo)", "Amostra #3", '/assets/amostra-3.jpeg'))
+cursor.execute(cmd_insert_amostra, (3, "Rodeado de folhas caidas, grama e terra (mas aparentemente limpo)", "Amostra #3", '/app/static/amostra-3.jpeg'))
 # AMOSTRA 4
-cursor.execute(cmd_insert_amostra, (4, "Bastante utilizado, limpo", "Amostra #4", '/assets/amostra-4.jpeg'))
+cursor.execute(cmd_insert_amostra, (4, "Bastante utilizado, limpo", "Amostra #4", '/app/static/amostra-4.jpeg'))
 # AMOSTRA 5
-cursor.execute(cmd_insert_amostra, (5, "Água do lago, turva e aparentemente suja", "Amostra #5", '/assets/amostra-5.jpeg'))
+cursor.execute(cmd_insert_amostra, (5, "Água do lago, turva e aparentemente suja", "Amostra #5", '/app/static/amostra-5.jpeg'))
 # AMOSTRA 6
-cursor.execute(cmd_insert_amostra, (6, "Tanque atrás do restaurante universitário, para limpezas gerais e conexão de mangueira", "Amostra #6", '/assets/amostra-6.jpeg'))
+cursor.execute(cmd_insert_amostra, (6, "Tanque atrás do restaurante universitário, para limpezas gerais e conexão de mangueira", "Amostra #6", '/app/static/amostra-6.jpeg'))
 # AMOSTRA 7
-cursor.execute(cmd_insert_amostra, (7, "Banheiro acessível ao lado do banheiro feminino, amostra recolhida da pia", "Amostra #7", '/assets/amostra-7.jpeg'))
+cursor.execute(cmd_insert_amostra, (7, "Banheiro acessível ao lado do banheiro feminino, amostra recolhida da pia", "Amostra #7", '/app/static/amostra-7.jpeg'))
 # DADOS DE COLETA AMOSTRA 1
 cursor.execute(cmd_insert_coleta, (1, -22.41374, -45.44977, "Bloco B", "2025-12-02 10:41:00", 24.1))
 # DADOS DE COLETA AMOSTRA 2
